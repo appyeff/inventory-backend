@@ -2,12 +2,13 @@ package com.company.inventoryapp.response;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class ResponseRest {
 
 	private ArrayList<HashMap<String, String>> metadata = new ArrayList<>();
 
-	public ArrayList<HashMap<String, String>> getMetadata() {
+	public List<HashMap<String, String>> getMetadata() {
 		return metadata;
 	}
 
